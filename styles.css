@@ -57,6 +57,8 @@ button {
     border-radius: 10px;
     margin-top: 10px;
     margin-bottom: 5px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
     
 }
 button:active, button:hover {
@@ -66,14 +68,4 @@ button:active, button:hover {
     
 }
 
-a {
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
-    text-decoration: none;
-}
-a:active, a:hover {
-    
-    color:  hsl(0, 0%, 20%);
-    cursor: pointer;
-    
-}
+
